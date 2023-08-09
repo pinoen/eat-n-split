@@ -1,11 +1,17 @@
-# Eat-n-split APP
+# Eat-n-split
 
-This project is part of The Ultimate React Course 2023: React, Redux & More by Jonas Schmedtmann.
-[Jonas Schmedtmann](http://jonas.io/).
+## Table of Contents
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
 
-## Summary
-Concepts applied:
+## Overview
+- Simple app which allows users to split bills after going out with friends or when sharing costs in general.
+- It was built with React using Create React App.
+- You can try it out at [Vercel - Eat-n-split](https://eat-n-split-gilt.vercel.app/)
 
+### Concepts applied
 - JSX
 - Components
 - Props
@@ -26,7 +32,17 @@ Concepts applied:
 - Sorting Items
 - children prop
 
-### Technologies Used
+## Features
+- Very simple application, where users can split theirs bills.
+- The app allows add new friends or contacts to the list.
+![Add friend](public/addFriend.png)
 
-create-react-app@5
+- The list keep a balance of the user with each of the friends.
+![Friends](public/friends.png)
 
+- Then a friend can be selected to share the bill with.
+- According to who paid the bill, the app will calculate the balace.
+![Split](public/split.png)
+
+## Acknowledgements
+This project is part of The Ultimate React Course 2023: React, Redux & More by [Jonas Schmedtmann](http://jonas.io/).
