@@ -48,7 +48,7 @@ export default function App() {
         <Button handleShow={() => setShowAdd(curr => !curr)}>{showAdd ? 'Close' : 'Add friend'}</Button>
 
       </div>
-      {shareWith && <SplitForm shareWith={shareWith} setFriendList={setFriendList} setShareWith={setShareWith} />}
+      {shareWith && <SplitForm shareWith={shareWith} setFriendList={setFriendList} setShareWith={setShareWith} key={shareWith.id} />}
     </div>
   )
 }
